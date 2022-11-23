@@ -1,4 +1,5 @@
+.DS_Store
+*/.DS_Store
+
 /pcb/esp32-led-backups
 /pcb/fp-info-cache
-
-.DS_Store
