@@ -63,7 +63,7 @@
       36
     ],
     "visible_layers": "00054fc_80000007",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "esp32-led.kicad_prl",

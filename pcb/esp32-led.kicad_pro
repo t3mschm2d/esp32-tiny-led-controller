@@ -140,8 +140,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.25
+          "diameter": 0.6,
+          "drill": 0.3
         },
         {
           "diameter": 0.6858,
@@ -468,6 +468,10 @@
     [
       "87ef5048-9cc7-4da1-8293-682ac74ffe8b",
       "ESP32-U4WDH"
+    ],
+    [
+      "c2f88748-7e50-45f6-b4e9-430e89c3a365",
+      "PCB Mounting"
     ]
   ],
   "text_variables": {}

@@ -37,14 +37,14 @@
     )
   )
 
-  (sheet (at 127 112.014) (size 38.1 10.16)
+  (sheet (at 76.2 116.84) (size 38.1 10.16)
     (stroke (width 0.1524) (type solid) (color 161 110 18 1))
     (fill (color 161 110 18 1.0000))
     (uuid 86d5b39d-4124-4a0c-8421-89fa02e00191)
-    (property "Sheet name" "GPIO Terminals" (id 0) (at 126.238 110.236 0)
+    (property "Sheet name" "GPIO Terminals" (id 0) (at 75.438 115.062 0)
       (effects (font (size 3 3) bold) (justify left bottom))
     )
-    (property "Sheet file" "gpio-terminals.kicad_sch" (id 1) (at 127 122.7586 0)
+    (property "Sheet file" "gpio-terminals.kicad_sch" (id 1) (at 76.2 127.5846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -61,12 +61,25 @@
     )
   )
 
+  (sheet (at 127 116.586) (size 38.1 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 255 117 69 1))
+    (fill (color 255 117 69 1.0000))
+    (uuid c2f88748-7e50-45f6-b4e9-430e89c3a365)
+    (property "Sheet name" "PCB Mounting" (id 0) (at 127 115.0094 0)
+      (effects (font (size 3 3) bold) (justify left bottom))
+    )
+    (property "Sheet file" "pcb-mounting.kicad_sch" (id 1) (at 127 127.3306 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/86d5b39d-4124-4a0c-8421-89fa02e00191" (page "2"))
     (path "/623c6236-a798-4569-9128-6109b37bfd20" (page "3"))
     (path "/82d2196d-ce03-415b-a1fb-abc76be70a22" (page "3"))
     (path "/87ef5048-9cc7-4da1-8293-682ac74ffe8b" (page "4"))
+    (path "/c2f88748-7e50-45f6-b4e9-430e89c3a365" (page "6"))
   )
 
   (symbol_instances
@@ -207,6 +220,12 @@
     )
     (path "/623c6236-a798-4569-9128-6109b37bfd20/b2b75be1-c16e-4e78-ad1e-175839f87129"
       (reference "D3") (unit 1) (value "LED") (footprint "LED_SMD:LED_0402_1005Metric")
+    )
+    (path "/c2f88748-7e50-45f6-b4e9-430e89c3a365/d821a4f9-c362-4a56-93a0-45312ac35c4f"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965")
+    )
+    (path "/c2f88748-7e50-45f6-b4e9-430e89c3a365/8d063cbe-42d4-4d93-93cd-49d4b790f576"
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965")
     )
     (path "/87ef5048-9cc7-4da1-8293-682ac74ffe8b/383e7bdd-113d-444e-b407-58233881efeb"
       (reference "IC1") (unit 1) (value "ESP32-U4WDH") (footprint "ESP32-U4WDH:QFN35P500X500X90-49N-D")
