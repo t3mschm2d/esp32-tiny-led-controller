@@ -176,8 +176,8 @@
     (path "/82d2196d-ce03-415b-a1fb-abc76be70a22/4d7bfb20-0239-4b23-8e2c-87b5ee948475"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
     )
-    (path "/87ef5048-9cc7-4da1-8293-682ac74ffe8b/a092eefa-a36b-47b7-a006-0ab8dab36fc7"
-      (reference "A1") (unit 1) (value "YAGEO_ANT3216LL00R2300A") (footprint "RF_Antenna:YAGEO_ANT3216LL00R2300A")
+    (path "/87ef5048-9cc7-4da1-8293-682ac74ffe8b/7abdf93f-be09-4a49-ae8a-7eb818be8117"
+      (reference "A1") (unit 1) (value "YAGEO_ANT3216LL00R2400A") (footprint "RF_Antenna:YAGEO_ANT3216LL00R2400A")
     )
     (path "/87ef5048-9cc7-4da1-8293-682ac74ffe8b/265b163f-592d-40a2-a7e5-5de7a841d8f7"
       (reference "C1") (unit 1) (value "8pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -211,9 +211,6 @@
     )
     (path "/623c6236-a798-4569-9128-6109b37bfd20/b28828ea-45e9-4c47-a1a6-5ce26dc14fd0"
       (reference "C11") (unit 1) (value "0.1uF/25V(10%)") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/623c6236-a798-4569-9128-6109b37bfd20/eb74a981-47de-4dca-944e-4ba5bca29db1"
-      (reference "D1") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_0805_2012Metric")
     )
     (path "/623c6236-a798-4569-9128-6109b37bfd20/7168f773-6382-4596-a7da-9349d71b679a"
       (reference "D2") (unit 1) (value "SP0503BAHT") (footprint "Package_TO_SOT_SMD:SOT-143")
@@ -271,6 +268,9 @@
     )
     (path "/623c6236-a798-4569-9128-6109b37bfd20/52dc03ca-e60a-4a1b-9e63-b170014911bb"
       (reference "R7") (unit 1) (value "200") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/623c6236-a798-4569-9128-6109b37bfd20/2dd2edde-b79d-4ec7-87aa-5955ab5302f8"
+      (reference "R8") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/87ef5048-9cc7-4da1-8293-682ac74ffe8b/e084d0da-fc5e-4170-b3ce-0a69e61e0374"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
