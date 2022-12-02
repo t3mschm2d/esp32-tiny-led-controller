@@ -176,6 +176,12 @@
     (path "/82d2196d-ce03-415b-a1fb-abc76be70a22/4d7bfb20-0239-4b23-8e2c-87b5ee948475"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c2f88748-7e50-45f6-b4e9-430e89c3a365/306d7bf4-2a64-4fd2-8189-3809c06547dc"
+      (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c2f88748-7e50-45f6-b4e9-430e89c3a365/6d7a09a9-dad8-4f0e-ba17-d13ab05cb417"
+      (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
+    )
     (path "/87ef5048-9cc7-4da1-8293-682ac74ffe8b/7abdf93f-be09-4a49-ae8a-7eb818be8117"
       (reference "A1") (unit 1) (value "YAGEO_ANT3216LL00R2400A") (footprint "RF_Antenna:YAGEO_ANT3216LL00R2400A")
     )
@@ -186,7 +192,7 @@
       (reference "C2") (unit 1) (value "10pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/87ef5048-9cc7-4da1-8293-682ac74ffe8b/2d07675a-f73a-4382-8738-ecd0a41fd7ac"
-      (reference "C3") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C3") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/82d2196d-ce03-415b-a1fb-abc76be70a22/c8272a46-58ed-4b4d-bccc-aa9ea9d868d4"
       (reference "C4") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -195,34 +201,31 @@
       (reference "C5") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/82d2196d-ce03-415b-a1fb-abc76be70a22/cf5dd1c2-be2b-47c8-94fd-611c7b3d29ad"
-      (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C6") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/82d2196d-ce03-415b-a1fb-abc76be70a22/c6af7b1c-360e-4580-9718-0ea5be65c66f"
-      (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C7") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/623c6236-a798-4569-9128-6109b37bfd20/6be11eef-2525-43d9-ae82-8d7ae6caab32"
-      (reference "C8") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C8") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/623c6236-a798-4569-9128-6109b37bfd20/eb0b921e-ebf2-46da-9d3b-11e3a641899a"
       (reference "C9") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/623c6236-a798-4569-9128-6109b37bfd20/f492ac04-8aa6-46b4-af42-5e827b7ed859"
-      (reference "C10") (unit 1) (value "10uF/6.3V(10%)") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C10") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/623c6236-a798-4569-9128-6109b37bfd20/b28828ea-45e9-4c47-a1a6-5ce26dc14fd0"
-      (reference "C11") (unit 1) (value "0.1uF/25V(10%)") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C11") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/623c6236-a798-4569-9128-6109b37bfd20/7168f773-6382-4596-a7da-9349d71b679a"
       (reference "D2") (unit 1) (value "SP0503BAHT") (footprint "Package_TO_SOT_SMD:SOT-143")
     )
-    (path "/623c6236-a798-4569-9128-6109b37bfd20/b2b75be1-c16e-4e78-ad1e-175839f87129"
-      (reference "D3") (unit 1) (value "LED") (footprint "LED_SMD:LED_0402_1005Metric")
+    (path "/c2f88748-7e50-45f6-b4e9-430e89c3a365/4d4b3b1d-b8c3-44d9-8b55-6303fc6c5f25"
+      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
-    (path "/c2f88748-7e50-45f6-b4e9-430e89c3a365/d821a4f9-c362-4a56-93a0-45312ac35c4f"
-      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965")
-    )
-    (path "/c2f88748-7e50-45f6-b4e9-430e89c3a365/8d063cbe-42d4-4d93-93cd-49d4b790f576"
-      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965")
+    (path "/c2f88748-7e50-45f6-b4e9-430e89c3a365/4f7e93dc-baff-4140-a375-993b31855e4c"
+      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
     (path "/87ef5048-9cc7-4da1-8293-682ac74ffe8b/383e7bdd-113d-444e-b407-58233881efeb"
       (reference "IC1") (unit 1) (value "ESP32-U4WDH") (footprint "ESP32-U4WDH:QFN35P500X500X90-49N-D")
@@ -249,13 +252,13 @@
       (reference "Q1") (unit 2) (value "MUN5211DW1") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
     (path "/87ef5048-9cc7-4da1-8293-682ac74ffe8b/4a0cfa34-5fd0-4b09-bc0c-11a43bd4debc"
-      (reference "R1") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R1") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/87ef5048-9cc7-4da1-8293-682ac74ffe8b/53de03a7-df9c-4daa-a7e6-4ac905aaf3f7"
       (reference "R2") (unit 1) (value "10K(5%)") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/82d2196d-ce03-415b-a1fb-abc76be70a22/1ccb760c-33f0-4761-b1fe-6daa50632384"
-      (reference "R3") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R3") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/82d2196d-ce03-415b-a1fb-abc76be70a22/902d4521-4082-4a9f-8b21-9d32b767fefb"
       (reference "R4") (unit 1) (value "499R(1%)") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -265,9 +268,6 @@
     )
     (path "/623c6236-a798-4569-9128-6109b37bfd20/bbd0ee99-def2-4588-94a9-e655074f79df"
       (reference "R6") (unit 1) (value "5.11K") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/623c6236-a798-4569-9128-6109b37bfd20/52dc03ca-e60a-4a1b-9e63-b170014911bb"
-      (reference "R7") (unit 1) (value "200") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/623c6236-a798-4569-9128-6109b37bfd20/2dd2edde-b79d-4ec7-87aa-5955ab5302f8"
       (reference "R8") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
