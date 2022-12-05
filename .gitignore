@@ -1,5 +1,6 @@
 .DS_Store
 */.DS_Store
+*.kicad_sch-bak
 
 /pcb/esp32-led-backups
 /pcb/fp-info-cache
